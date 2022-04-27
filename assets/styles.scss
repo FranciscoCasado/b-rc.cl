@@ -1,0 +1,42 @@
+// Colors
+$bg-color: #292F36;
+
+$dot-color: #545960;
+
+// Dimensions
+$dot-size: 1px;
+$dot-space: 22px;
+
+body {
+	background:
+		linear-gradient(90deg, $bg-color ($dot-space - $dot-size), transparent 1%) center,
+		linear-gradient($bg-color ($dot-space - $dot-size), transparent 1%) center,
+		$dot-color;
+	background-size: $dot-space $dot-space;
+}
+
+
+body {
+    font-family: monospace;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    
+    margin: auto;
+    
+    width: 800px;
+    max-width: 90%;
+    height: 80vh;
+    
+    justify-content: center;
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 2rem;
+    text-align: center;
+    color: #858d98;
+}

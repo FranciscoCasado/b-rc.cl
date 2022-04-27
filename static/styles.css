@@ -1,0 +1,24 @@
+body {
+  background: linear-gradient(90deg, #292F36 21px, transparent 1%) center, linear-gradient(#292F36 21px, transparent 1%) center, #545960;
+  background-size: 22px 22px; }
+
+body {
+  font-family: monospace; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 800px;
+  max-width: 90%;
+  height: 80vh;
+  justify-content: center; }
+
+h1,
+h2,
+h3 {
+  margin-top: 2rem;
+  text-align: center;
+  color: #858d98; }
+
+/*# sourceMappingURL=styles.css.map */
