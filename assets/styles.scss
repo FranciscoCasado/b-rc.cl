@@ -5,7 +5,7 @@ $dot-color: #545960;
 
 // Dimensions
 $dot-size: 1px;
-$dot-space: 22px;
+$dot-space: 16px;
 
 body {
 	background:
@@ -23,20 +23,38 @@ body {
 .container {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     
     margin: auto;
+    padding: 5rem 2rem;
     
-    width: 800px;
-    max-width: 90%;
+    max-width: 600px;
     height: 80vh;
-    
-    justify-content: center;
 }
+
+
 
 h1,
 h2,
 h3 {
     margin-top: 2rem;
     text-align: center;
-    color: #858d98;
+    color: #99a2af;
+}
+
+
+.socials {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    a {
+        text-decoration: none;
+        color: #99a2af;
+        text-align: center;
+    }
+}
+
+.logo {
+    width: 15px;
 }
