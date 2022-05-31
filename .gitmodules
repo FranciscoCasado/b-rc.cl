@@ -1,0 +1,3 @@
+[submodule "devfest-theme-hugo"]
+	path = devfest-theme-hugo
+	url = https://github.com/Beauchef-Proyecta/devfest-theme-hugo.git
