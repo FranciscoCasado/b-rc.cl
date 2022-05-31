@@ -1,6 +1,0 @@
-baseURL = "http://franciscocasado.github.io/"
-languageCode = "es-cl"
-title = "BRC 2022"
-
-
-theme = "devfest-theme-hugo"
