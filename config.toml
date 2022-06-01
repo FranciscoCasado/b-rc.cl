@@ -4,3 +4,26 @@ title = "BRC 2022"
 
 
 theme = "devfest-theme-hugo"
+
+# Params
+
+enableEmoji = true
+enableRobotsTXT = true
+enableMissingTranslationPlaceholders = true
+
+
+# Todo eso va en los metadatos, hay que llenarlo bien bien
+[params]
+    title = "BRC 2022 :heart: "
+    date = "2022-06-01"
+    description = "Beauchef Robotics Challenge es una competencia bacán bacán"
+    images = ["/images/social-share.jpg"]
+    email = "contact@devfesttoulouse.fr"
+    keywords = "event, gdg, gde, devfest, google, programming, android, chrome, developers, web, cloud, androiddev"
+    copyright = "We :heart:️ chocolatines"
+    appleTouchIcon = "/apple-touch-icon.png"
+    favicon32 = "/favicon-32x32.png"
+    favicon16 = "/favicon-16x16.png"
+    manifest = "/manifest.json"
+    safariPinnedTab = "/safari-pinned-tab.svg"
+    themeColor = "#673ab7"
