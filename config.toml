@@ -1,6 +1,6 @@
-baseURL = "https://franciscocasado.github.io/b-rc.cl/"
+baseURL = "https://b-rc.cl/"
 languageCode = "es-cl"
-title = "EL BEERREEEECEEEEE MMXXII"
+title = "BRC 2022"
 
 
 theme = "devfest-theme-hugo"
